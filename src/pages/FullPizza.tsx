@@ -22,7 +22,7 @@ const FullPizza = () => {
     fetchPizza();
   }, []);
   if (!pizza) {
-    return 'Загрузка..';
+    return null;
   }
   return (
     <div className="container">
